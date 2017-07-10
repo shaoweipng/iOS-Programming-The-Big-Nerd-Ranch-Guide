@@ -1,0 +1,8 @@
+#Chapter 4
+
+https://forums.bignerdranch.com/t/error-app-windows-expected-to-have-root-view-controller-at-app-launch/11928/4
+
+
+https://forums.bignerdranch.com/t/using-xcode-6-with-the-4th-edition-book/6773
+
+https://forums.bignerdranch.com/t/xcode7-can-t-run-the-example-code/7841/3

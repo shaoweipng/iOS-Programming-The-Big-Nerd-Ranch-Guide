@@ -23,6 +23,10 @@
     scrollView.pagingEnabled = true;
     [self.window addSubview:scrollView];
     
+    UIViewController *viewController = [[UIViewController alloc] init];
+    viewController.view = scrollView;
+    self.window.rootViewController = viewController;
+    
     BNRHypnosisView *hypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
     [scrollView addSubview:hypnosisView];
     

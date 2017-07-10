@@ -197,6 +197,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Hi Rahim";
 				TargetAttributes = {
+					92D8C7921901E64E00814039 = {
+						DevelopmentTeam = RYSS66726H;
+					};
 					92D8C7AD1901E64E00814039 = {
 						TestTargetID = 92D8C7921901E64E00814039;
 					};
@@ -364,9 +367,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = RYSS66726H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
 				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaoweiHypnosister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,9 +382,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = RYSS66726H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hypnosister/Hypnosister-Prefix.pch";
 				INFOPLIST_FILE = "Hypnosister/Hypnosister-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = ShaoweiHypnosister;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
