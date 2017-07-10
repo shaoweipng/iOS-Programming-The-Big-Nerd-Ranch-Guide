@@ -18,6 +18,7 @@
     CGRect screenRect = self.window.bounds;
     CGRect bigRect = screenRect;
     bigRect.size.width *= 2.0;
+    bigRect.size.height *= 2.0;
     
     UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
     scrollView.pagingEnabled = true;
@@ -27,12 +28,12 @@
     viewController.view = scrollView;
     self.window.rootViewController = viewController;
     
-    BNRHypnosisView *hypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
+    BNRHypnosisView *hypnosisView = [[BNRHypnosisView alloc] initWithFrame:bigRect];
     [scrollView addSubview:hypnosisView];
     
-    screenRect.origin.x += screenRect.size.width;
-    BNRHypnosisView *anotherView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
-    [scrollView addSubview:anotherView];
+    //screenRect.origin.x += screenRect.size.width;
+    //BNRHypnosisView *anotherView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
+    //[scrollView addSubview:anotherView];
     
     scrollView.contentSize = bigRect.size;
     
